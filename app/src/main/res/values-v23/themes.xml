@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MyApp" parent="Base.Theme.MyApp">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">#f0f3f8</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">#f0f3f8</item>
+        <item name="android:textColorSecondary">#f0f3f8</item>
+        <item name="buttonTint">#f0f3f8</item>
+    </style>
+
+</resources>

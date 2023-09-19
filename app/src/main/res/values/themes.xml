@@ -3,7 +3,19 @@
     <style name="Base.Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:navigationBarColor">#f0f3f8</item>
     </style>
 
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
+    <style name="WhiteCheck">
+        <item name="colorAccent">#fff</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ... other theme attributes ... -->
+        <item name="checkboxStyle">@style/CustomCheckBoxStyle</item>
+    </style>
+
+    <style name="CustomCheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/checkboxUncheckedColor</item>
+    </style>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="270"
+    android:toDegrees="270">
+    <shape
+        android:innerRadiusRatio="2.16"
+        android:shape="ring"
+        android:thicknessRatio="30.0"
+        android:useLevel="true">
+
+        <!-- Customize the progress bar color here -->
+        <solid android:color="#c4e3fa" /> <!-- Change this color to your desired color -->
+
+    </shape>
+</rotate>

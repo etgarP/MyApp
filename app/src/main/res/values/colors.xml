@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="checkboxUncheckedColor">#0000FF</color> <!-- Blue color for unchecked -->
+    <color name="checkboxCheckedColor">#FF0000</color>   <!-- Red color for checked -->
 </resources>
